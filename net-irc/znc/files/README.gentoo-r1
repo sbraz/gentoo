@@ -11,5 +11,5 @@ configuration files:
   # chown -R znc:znc /var/lib/znc
 
 OpenRC users may also adjust the location of the files and the user running
-znc in /etc/conf.d/znc instead. Systemd users may have to overwrite the
-existing unit file.
+znc in /etc/conf.d/znc instead. Systemd users should override the existing
+unit file.
